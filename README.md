@@ -23,7 +23,7 @@ USB serial; this extension uses the clock's HTTP API instead.
 ## Install
 
 ```sh
-git clone https://github.com/devsecwipay/omp-awtrix.git
+git clone https://github.com/shaygrantt/omp-awtrix.git
 ln -s "$PWD/omp-awtrix/awtrix-status.ts" ~/.omp/agent/extensions/awtrix-status.ts
 export AWTRIX_URL=http://<your-clock-ip>
 ```
@@ -45,3 +45,7 @@ New omp sessions load it automatically.
 - `/awtrix`: clock reachability, current app, and the state of every omp session.
 - `/awtrix test`: run working → question → done on the clock.
 - `/awtrix mute` / `/awtrix unmute`: turn the done beep off or on for this session.
+
+## License
+
+[MIT](LICENSE)
